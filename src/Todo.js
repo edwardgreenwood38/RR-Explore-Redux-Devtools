@@ -18,6 +18,7 @@ function Todo() {
 
     return (
         <div>
+            <h3>To Do List</h3>
             <form onSubmit={(e) => submitForm(e)}>
                 <input type="text" onChange={(e) => setInput(e.target.value)} />
                 <button type="submit">Submit</button>
